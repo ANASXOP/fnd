@@ -54,7 +54,7 @@ export default function Navbar() {
 
           {/* GitHub */}
           <a
-            href="https://github.com/YOUR_USERNAME/YOUR_REPO"
+            href="https://github.com/ANASXOP/fnd"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full 
