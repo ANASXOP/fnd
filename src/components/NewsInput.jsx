@@ -17,9 +17,9 @@ const handleAnalyze = async () => {
   setResult(null);
 
   try {
-    const res = await axios.post("http://127.0.0.1:8000/predict", {
-      text: text,
-    });
+    const res = await axios.post("https://fnd-backend-l4ay.onrender.com/predict", {
+  text: text,
+});
 
     setResult(res.data);
   } catch (error) {
