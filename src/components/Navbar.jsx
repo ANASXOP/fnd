@@ -84,12 +84,14 @@ export default function Navbar() {
         onClose={() => setOpenModal(null)}
         title="How It Works"
       >
-        This system uses Natural Language Processing (NLP) and Machine Learning
-        to analyze news articles. It checks language patterns, source reliability,
-        and content structure to predict whether a news item is real or fake.
-
+        This system uses Natural Language Processing (NLP) and Machine Learning to analyze news articles and determine whether the information is likely to be real or fake. Instead of relying on simple keyword matching, it examines deeper language patterns such as sentence structure, word choice, tone, and writing style. These patterns often reveal whether content is factual, exaggerated, or intentionally misleading.
         <br /><br />
-
+        The machine learning model is trained on a large collection of real and fake news articles. Through this training, the model learns how trustworthy news is typically written and how fake news often differs in phrasing, emotional language, and structure. When a user submits news text, the system applies the same learned patterns to generate a prediction.
+        <br /><br />
+        For news that is unclear or highly contextual, the system uses modern AI reasoning to better understand meaning and intent. This helps handle complex claims, incomplete information, or content that requires real-world context. The final result is presented in a simple format, along with confidence information and explanations where applicable.
+        <br /><br />
+        All processing happens quickly through a web-based interface. Users can paste news content, click analyze, and receive results within seconds. The purpose of this system is to reduce the spread of misinformation, support informed decision-making, and make news verification easy and accessible for everyone.
+        <br /><br />
         Our goal is to reduce misinformation and help users verify content easily.
       </InfoModal>
 
@@ -99,13 +101,11 @@ export default function Navbar() {
         onClose={() => setOpenModal(null)}
         title="About"
       >
-        Fake News Detection System is a final-year BCA project focused on AI, NLP,
-        and modern UI/UX.
-
+        The Fake News Detection System is a final-year BCA project that focuses on the practical use of Artificial Intelligence, Natural Language Processing (NLP), and Machine Learning to address the growing problem of misinformation. The project is designed to demonstrate how modern AI techniques can be applied to real-world challenges through an accessible and interactive platform.        
         <br /><br />
-
-        Built to demonstrate real-world applications of machine learning and
-        misinformation detection.
+        The system analyzes news content using NLP-based machine learning models and supports the analysis with advanced AI reasoning for better accuracy in complex cases. Along with strong technical foundations, the project also emphasizes modern UI/UX design, ensuring a smooth and user-friendly experience.
+        <br /><br />
+        Overall, this project highlights the complete journey from model training and backend development to frontend integration and deployment, showcasing how intelligent systems can help users verify information and make informed decisions in the digital age.
       </InfoModal>
 
 {/* Extension Modal */}
