@@ -154,7 +154,7 @@ export default function Navbar() {
   </div>
 
   <p className="text-xs mt-4 opacity-60">
-    Works on Chrome & Opera GX · Manual install
+    Works on any Browser · Manual install
   </p>
 </InfoModal>
 
