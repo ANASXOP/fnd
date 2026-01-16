@@ -17,7 +17,7 @@ export default function Hero() {
       : "text-black"
   }`}
 >
-  Fake News Detection System
+  Ayana Battery 
 </motion.h1>
 
 
