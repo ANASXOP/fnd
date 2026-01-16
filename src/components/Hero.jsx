@@ -39,7 +39,7 @@ export default function Hero() {
         className="mt-2 text-sm text-gray-500"
       >
         Created by{" "}
-        <span className="font-medium">Anas</span>,{" "}
+        <span className="font-medium">Ayana</span>,{" "}
         <span className="font-medium">Kaif</span> &{" "}
         <span className="font-medium">Sakshi</span>
       </motion.p>
