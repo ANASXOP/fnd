@@ -17,7 +17,7 @@ export default function Hero() {
       : "text-black"
   }`}
 >
-  Fake News Detection System
+  Fake News Detection
 </motion.h1>
 
 
