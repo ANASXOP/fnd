@@ -26,12 +26,12 @@ function NewsImageCard({ image, dark, col, size = "md", depth = 1 }) {
       ? rand(160, 210)
       : rand(200, 260);
 
-  const duration = useMemo(() => rand(6, 9) * depth, []);
-  const delay = useMemo(() => rand(0, 3), []);
-  const headline = useMemo(
-    () => headlines[Math.floor(Math.random() * headlines.length)],
-    []
-  );
+const duration = useMemo(() => rand(6, 9) * depth, [depth]);
+const delay = useMemo(() => rand(0, 3), []);
+const headline = useMemo(
+  () => headlines[Math.floor(Math.random() * headlines.length)],
+  []
+);
 
   return (
     <motion.div
